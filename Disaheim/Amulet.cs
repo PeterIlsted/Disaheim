@@ -32,6 +32,7 @@ namespace Disaheim
             get { return this._quality; }
             set { _quality = value; }
         }
+        public Amulet() { }
         public Amulet(string itemId)
         {
             _itemId = itemId;
