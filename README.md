@@ -23,3 +23,6 @@ Git Bash kommandoer:
   - viser de nuværende filer, som er i den nuværende mappe
 - git log
   - viser en log over de forskellige commits
+-  git push --set-upstream <Repo URL> master
+  - Skaber forbindelse mellem git bash og github
+

@@ -1,0 +1,14 @@
+C:\Users\pibm9\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Dokumenter\Datamatiker\Programmering\Disaheim\Disaheim\bin\Debug\net8.0\Disaheim.exe
+C:\Users\pibm9\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Dokumenter\Datamatiker\Programmering\Disaheim\Disaheim\bin\Debug\net8.0\Disaheim.deps.json
+C:\Users\pibm9\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Dokumenter\Datamatiker\Programmering\Disaheim\Disaheim\bin\Debug\net8.0\Disaheim.runtimeconfig.json
+C:\Users\pibm9\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Dokumenter\Datamatiker\Programmering\Disaheim\Disaheim\bin\Debug\net8.0\Disaheim.dll
+C:\Users\pibm9\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Dokumenter\Datamatiker\Programmering\Disaheim\Disaheim\bin\Debug\net8.0\Disaheim.pdb
+C:\Users\pibm9\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Dokumenter\Datamatiker\Programmering\Disaheim\Disaheim\obj\Debug\net8.0\Disaheim.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pibm9\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Dokumenter\Datamatiker\Programmering\Disaheim\Disaheim\obj\Debug\net8.0\Disaheim.AssemblyInfoInputs.cache
+C:\Users\pibm9\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Dokumenter\Datamatiker\Programmering\Disaheim\Disaheim\obj\Debug\net8.0\Disaheim.AssemblyInfo.cs
+C:\Users\pibm9\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Dokumenter\Datamatiker\Programmering\Disaheim\Disaheim\obj\Debug\net8.0\Disaheim.csproj.CoreCompileInputs.cache
+C:\Users\pibm9\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Dokumenter\Datamatiker\Programmering\Disaheim\Disaheim\obj\Debug\net8.0\Disaheim.dll
+C:\Users\pibm9\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Dokumenter\Datamatiker\Programmering\Disaheim\Disaheim\obj\Debug\net8.0\refint\Disaheim.dll
+C:\Users\pibm9\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Dokumenter\Datamatiker\Programmering\Disaheim\Disaheim\obj\Debug\net8.0\Disaheim.pdb
+C:\Users\pibm9\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Dokumenter\Datamatiker\Programmering\Disaheim\Disaheim\obj\Debug\net8.0\Disaheim.genruntimeconfig.cache
+C:\Users\pibm9\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Dokumenter\Datamatiker\Programmering\Disaheim\Disaheim\obj\Debug\net8.0\ref\Disaheim.dll
