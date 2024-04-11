@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DisaheimTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e91a910fdca16a833d65b7e53b3cf7e59653020")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7cdfd9c787ef60effa2033c03e5002ab14f0663b")]
 [assembly: System.Reflection.AssemblyProductAttribute("DisaheimTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DisaheimTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

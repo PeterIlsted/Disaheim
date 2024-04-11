@@ -38,7 +38,7 @@ namespace Disaheim
             {
                 price = 0;
             }
-            else if (course.DurationInMinutes % 60 > 1)
+            else if (course.DurationInMinutes % 60 >= 1)
             {
                 time = time + 1;
                 price = time * 875.00;
