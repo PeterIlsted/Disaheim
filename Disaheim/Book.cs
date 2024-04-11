@@ -24,20 +24,13 @@ namespace Disaheim
             set { _price = value; }
         }
         public Book() { }
-        public Book(string itemId)
-        {
-            ItemId = itemId;
-        }
-        public Book(string itemId, string title)
-        {
-            ItemId = itemId;
-            Title = title;
-        }
+        public Book(string itemId) : this(itemId, null) { }
+        public Book(string itemId, string title) : this(itemId, title, 0) { }
         public Book(string itemId, string title, double price)
         {
-            ItemId = itemId;
-            Title = title;
-            Price = price;
+            base.ItemId = itemId;
+            this.Title = title;
+            this.Price = price;
         }
         public override string ToString()
         {

@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int test = 157 % 60;
+            Console.WriteLine(test);
+
         }
     }
 }

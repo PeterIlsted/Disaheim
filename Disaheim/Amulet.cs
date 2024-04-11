@@ -29,19 +29,11 @@ namespace Disaheim
             set { _quality = value; }
         }
         public Amulet() { }
-        public Amulet(string itemId)
-        {
-            ItemId = itemId;
-            Quality = Level.medium;
-        }
-        public Amulet(string itemId, Level quality)
-        {
-            ItemId = itemId;
-            this.Quality = quality;
-        }
+        public Amulet(string itemId) : this(itemId,Level.medium) { }
+        public Amulet(string itemId, Level quality) : this(itemId, quality,null) { }
         public Amulet(string itemId, Level quality, string design)
         {
-            ItemId = itemId;
+            base.ItemId = itemId;
             this.Design = design;
             this.Quality = quality;
         }
