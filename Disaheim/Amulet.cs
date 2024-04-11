@@ -14,7 +14,7 @@ namespace Disaheim
     }
     public class Amulet : Merchandise
     {
-        Merchandise merchandise = new Merchandise();
+        //Merchandise merchandise;
         private string _design;
         private Level _quality;
         

@@ -9,7 +9,7 @@ namespace Disaheim
 {
     public class Book : Merchandise
     {
-        Merchandise merchandise = new Merchandise();
+        //Merchandise merchandise;
         private string _title;
         private double _price;
         
