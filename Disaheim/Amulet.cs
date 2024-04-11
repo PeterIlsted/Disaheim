@@ -12,16 +12,12 @@ namespace Disaheim
         medium,
         high,
     }
-    public class Amulet
+    public class Amulet : Merchandise
     {
-        private string _itemId;
+        Merchandise merchandise = new Merchandise();
         private string _design;
         private Level _quality;
-        public string ItemId
-        {
-            get { return _itemId; }
-            set { _itemId = value; }
-        }
+        
         public string Design
         {
             get { return _design; }
@@ -35,17 +31,17 @@ namespace Disaheim
         public Amulet() { }
         public Amulet(string itemId)
         {
-            _itemId = itemId;
+            ItemId = itemId;
             Quality = Level.medium;
         }
         public Amulet(string itemId, Level quality)
         {
-            _itemId = itemId;
+            ItemId = itemId;
             this.Quality = quality;
         }
         public Amulet(string itemId, Level quality, string design)
         {
-            this.ItemId = itemId;
+            ItemId = itemId;
             this.Design = design;
             this.Quality = quality;
         }

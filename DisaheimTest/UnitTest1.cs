@@ -40,7 +40,7 @@ namespace DisaheimTest
             public void AmuletConstructorWithOneParameter()
             {
                 Assert.AreEqual("ItemId: 11, Quality: medium, Design: ", a1.ToString());
-        }
+            }
             [TestMethod]
             public void AmuletConstructorWithTwoParameters()
             {
@@ -51,5 +51,16 @@ namespace DisaheimTest
             {
                 Assert.AreEqual("ItemId: 13, Quality: low, Design: Capricorn", a3.ToString());
             }
+            [TestMethod]
+            public void MerchandiseConstructorWorkProperly()
+            {
+                // Arrange
+                Merchandise m = new Merchandise("100");
+
+                // Assert
+                Assert.AreEqual("ItemId: 100", m.ToString());
+            }
         }
+            
+
 }

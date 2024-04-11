@@ -7,16 +7,12 @@ using System.Threading.Tasks;
 
 namespace Disaheim
 {
-    public class Book
+    public class Book : Merchandise
     {
-        private string _itemId;
+        Merchandise merchandise = new Merchandise();
         private string _title;
         private double _price;
-        public string ItemId
-        {
-            get { return _itemId; }
-            set { _itemId = value; }
-        }
+        
         public string Title
         {
             get { return _title; }
@@ -30,18 +26,18 @@ namespace Disaheim
         public Book() { }
         public Book(string itemId)
         {
-            _itemId = itemId;
+            ItemId = itemId;
         }
         public Book(string itemId, string title)
         {
-            _itemId = itemId;
-            _title = title;
+            ItemId = itemId;
+            Title = title;
         }
         public Book(string itemId, string title, double price)
         {
-            _itemId = itemId;
-            _title = title;
-            _price = price;
+            ItemId = itemId;
+            Title = title;
+            Price = price;
         }
         public override string ToString()
         {
