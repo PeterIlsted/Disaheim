@@ -1,4 +1,6 @@
-﻿namespace Disaheim
+﻿
+
+namespace Disaheim
 {
     public class Program
     {

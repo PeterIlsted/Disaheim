@@ -1,6 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Disaheim;
-
 namespace DisaheimTest
 {
     [TestClass]
