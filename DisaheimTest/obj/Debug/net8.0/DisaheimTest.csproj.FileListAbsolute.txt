@@ -115,5 +115,3 @@ C:\Users\pibm9\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Dokumenter
 C:\Users\pibm9\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Dokumenter\Datamatiker\Programmering\Disaheim\DisaheimTest\obj\Debug\net8.0\DisaheimTest.pdb
 C:\Users\pibm9\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Dokumenter\Datamatiker\Programmering\Disaheim\DisaheimTest\obj\Debug\net8.0\DisaheimTest.genruntimeconfig.cache
 C:\Users\pibm9\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Dokumenter\Datamatiker\Programmering\Disaheim\DisaheimTest\obj\Debug\net8.0\ref\DisaheimTest.dll
-C:\Users\pibm9\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Dokumenter\Datamatiker\Programmering\Disaheim\DisaheimTest\bin\Debug\net8.0\UtilityLib.dll
-C:\Users\pibm9\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Dokumenter\Datamatiker\Programmering\Disaheim\DisaheimTest\bin\Debug\net8.0\UtilityLib.pdb

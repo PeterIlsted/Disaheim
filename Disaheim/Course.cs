@@ -20,8 +20,8 @@ namespace Disaheim
             get { return durationInMinutes; } 
             set {  durationInMinutes = value; } 
         }
-        public Course() { }
-        public Course(string name) : this(name,0){ }
+        public Course() : this(null) { }
+        public Course(string name) : this(name,0) { }
         public Course(string name, int durationInMinutes)
         {
             Name = name;

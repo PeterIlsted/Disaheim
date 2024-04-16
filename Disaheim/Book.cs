@@ -24,7 +24,7 @@ namespace Disaheim
             get { return _price; }
             set { _price = value; }
         }
-        public Book() { }
+        public Book() : this(null) { }
         public Book(string itemId) : this(itemId, null) { }
         public Book(string itemId, string title) : this(itemId, title, 0) { }
         public Book(string itemId, string title, double price)

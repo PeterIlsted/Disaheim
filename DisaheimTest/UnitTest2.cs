@@ -8,7 +8,6 @@ namespace DisaheimTest
         Book b1, b2, b3;
         Amulet a1, a2, a3;
         Course c1, c2, c3;
-        Utility utility;
 
         [TestInitialize]
         public void Init()
@@ -27,63 +26,62 @@ namespace DisaheimTest
             c2 = new Course("Magi – når videnskaben stopper", 157);
             c3 = new Course("Et indblik i Helleristning", 180);
 
-            utility = new Utility();
         }
 
         [TestMethod]
         public void TestGetValueForBook1()
         {
             // Assert
-            Assert.AreEqual(0.0, utility.GetValueOfBook(b1));
+            Assert.AreEqual(0.0, Utility.GetValueOfBook(b1));
         }
         [TestMethod]
         public void TestGetValueForBook2()
         {
             // Assert
-            Assert.AreEqual(0.0, utility.GetValueOfBook(b2));
+            Assert.AreEqual(0.0, Utility.GetValueOfBook(b2));
         }
         [TestMethod]
         public void TestGetValueForBook3()
         {
             // Assert
-            Assert.AreEqual(123.55, utility.GetValueOfBook(b3));
+            Assert.AreEqual(123.55, Utility.GetValueOfBook(b3));
         }
 
         [TestMethod]
         public void TestGetValueForAmulet1()
         {
             // Assert
-            Assert.AreEqual(20.0, utility.GetValueOfAmulet(a1));
+            Assert.AreEqual(20.0, Utility.GetValueOfAmulet(a1));
         }
         [TestMethod]
         public void TestGetValueForAmulet2()
         {
             // Assert
-            Assert.AreEqual(27.5, utility.GetValueOfAmulet(a2));
+            Assert.AreEqual(27.5, Utility.GetValueOfAmulet(a2));
         }
         [TestMethod]
         public void TestGetValueForAmulet3()
         {
             // Assert
-            Assert.AreEqual(12.5, utility.GetValueOfAmulet(a3));
+            Assert.AreEqual(12.5, Utility.GetValueOfAmulet(a3));
         }
         [TestMethod]
         public void TestGetValueForCourse1()
         {
             // Assert
-            Assert.AreEqual(0.0, utility.GetValueOfCourse(c1));
+            Assert.AreEqual(0.0, Utility.GetValueOfCourse(c1));
         }
         [TestMethod]
         public void TestGetValueForCourse2()
         {
             // Assert
-            Assert.AreEqual(2625.0, utility.GetValueOfCourse(c2));
+            Assert.AreEqual(2625.0, Utility.GetValueOfCourse(c2));
         }
         [TestMethod]
         public void TestGetValueForCourse3()
         {
             // Assert
-            Assert.AreEqual(2625.0, utility.GetValueOfCourse(c3));
+            Assert.AreEqual(2625.0, Utility.GetValueOfCourse(c3));
         }
     }
 
