@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Disaheim
 {
-    public class Book : Merchandise
+    public class Book : Merchandise, IValuable
     {
         //Merchandise merchandise;
         private string _title;
@@ -36,6 +36,16 @@ namespace Disaheim
         public override string ToString()
         {
             return $"ItemId: {ItemId}, Title: {Title}, Price: {Price}"; 
+        }
+
+        public override double GetValue()
+        {
+            double price = 0;
+            if (Price != 0)
+            {
+                price = Price;
+            }
+            return price;
         }
     }
 }

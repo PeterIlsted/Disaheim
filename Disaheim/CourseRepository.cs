@@ -10,10 +10,10 @@ namespace Disaheim
     public class CourseRepository
     {
         Course course;
-        
-        
-        
-        private List<Course> courses = new List<Course>();
+
+
+
+        private List<Course> courses;
         public List<Course> AddCourse(Course course)
         {
             courses.Add(course);
@@ -37,7 +37,7 @@ namespace Disaheim
             double totalValue = 0;
             foreach (var course in courses)
             {
-                value = Utility.GetValueOfCourse(course);
+                value = course.GetValue();
                 totalValue = totalValue + value;
             }
             return totalValue;
