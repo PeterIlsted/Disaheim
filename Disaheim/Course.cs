@@ -45,7 +45,7 @@ namespace Disaheim
             }
             else if (DurationInMinutes % 60 >= 1)
             {
-                time = time + 1;
+                time += 1;
                 price = time * Course.CourseHourValue;
             }
             else

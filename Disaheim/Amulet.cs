@@ -22,6 +22,7 @@ namespace Disaheim
         private static double _mediumQualityValue = 20.0;
         public static double MediumQualityValue { get { return _mediumQualityValue; } }
         private static double _highQualityValue = 27.5;
+
         public static double HighQualityValue {  get { return _highQualityValue; } }
 
         public string Design
